@@ -4,4 +4,4 @@ function init(isGoingToShowAlert) {
     }
 }
 
-setTimeout(() => init(true));
+setTimeout(() => init(true), 1000);
