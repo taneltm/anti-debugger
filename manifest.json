@@ -1,0 +1,24 @@
+{
+  "name": "anti-debugger",
+  "description": "Alters HTTP responses and replaces debugger statements with strings",
+  "manifest_version": 2,
+  "version": "1.0",
+  "icons": {
+    "48": "anti-debugger.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "57.0a1"
+    }
+  }
+}

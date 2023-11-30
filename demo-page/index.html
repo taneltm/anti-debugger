@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Fira Code', monospace;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            padding: 1rem;
+        }
+
+        code {
+            background-color: #eee;
+            padding: 0.2rem;
+        }
+    </style>
+    <script>
+        setInterval(() => {
+            debugger;
+        });
+    </script>
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <h1>Example</h1>
+    <p>Serve this page in a web server and try to use breakpoints in the browser's developer tools.</p>
+    <p>
+        If you have Node.js installed
+        <ol>
+            <li>
+                <code>cd demo-page</code>
+            </li>
+            <li>
+                <code>npx http-server</code>
+            </li>
+        </ol>
+    </p>
+</body>
+</html>
